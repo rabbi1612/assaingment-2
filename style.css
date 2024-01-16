@@ -479,12 +479,46 @@ h2 {
     font-size: 2rem;
     font-weight: 800;
 }
-span{
+
+span {
     color: orangered;
 }
 
+.nav-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+nav ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    padding: 50px 130px;
+}
+
+li {
+    margin-right: 25px;
+    color: var(--Dark-02, #424247);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+}
 
 
 
@@ -643,12 +677,31 @@ span{
     .div-riletive {
         left: 80px;
     }
-    .footer{
+
+    .footer {
         padding: 0px 5px;
         width: 95%;
     }
+
     .iiic {
         width: 40px;
         margin: 0px 10px;
+    }
+    nav ul{
+        display: none;
+    }
+    header{
+        padding: 10px 20px;
+    }
+    .hambarger{
+        width: 40px;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .hambarger{
+        display: none;
     }
 }
