@@ -538,6 +538,7 @@ nav li a {
     .explore-input {
         flex-direction: column;
         gap: 10px;
+        width: 80%;
     }
 
     .popular {
