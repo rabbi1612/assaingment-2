@@ -194,6 +194,7 @@ h2 {
 
 .choose-text {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .choose-card-flex {
@@ -202,12 +203,14 @@ h2 {
     display: flex;
     justify-content: space-around;
     height: 250px;
+    gap: 20px;
 }
 
 .choose-card2 {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+
 }
 
 .choose-card1 {
@@ -217,6 +220,7 @@ h2 {
     width: 500px;
     height: 250px;
 }
+
 .choose-card3 {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -229,9 +233,9 @@ h2 {
     color: #131318;
     font-weight: 800;
     font-size: 1.4rem;
-    padding: 30px 0px;
 }
-.choose-card-center{
+
+.choose-card-center {
     padding-left: 130px;
     padding-right: 130px;
     text-align: left;
@@ -239,6 +243,100 @@ h2 {
     margin-right: 200px;
     margin-top: 20px;
 }
+
+/* discount section style */
+
+.discount-title {
+    color: #131318;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.discount-text {
+    text-align: center;
+}
+
+.first-banner {
+    margin-left: 130px;
+    margin-right: 130px;
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 56px 56px 56px 400px;
+    height: 500px;
+    background-image: url('Images/Rectangle\ 12.png');
+    background-repeat: no-repeat;
+}
+
+.first-inside {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 550px;
+    height: 350px;
+}
+.banner-title{
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding: 20px 0px;
+}
+.color-text{
+    color: #FF5400;
+    font-weight: 800;
+    font-size: 1.4rem;
+    padding: 20px 0px;
+}
+.first-inside{
+    padding-top: 30px;
+    padding-left: 40px;
+    gap: 20px;
+}
+.second-banner {
+    margin-left: 130px;
+    margin-right: 130px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 56px 400px 56px 56px;
+    height: 500px;
+    background-image: url('Images/Rectangle\ 12\ \(1\).png');
+    background-repeat: no-repeat;
+}
+.second-inside{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 550px;
+    height: 350px;
+    padding-top: 30px;
+    padding-left: 40px;
+    gap: 20px;
+}
+.third-banner {
+    margin-left: 130px;
+    margin-right: 130px;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 56px 56px 56px 400px;
+    height: 500px;
+    background-image: url('Images/Rectangle\ 12.png');
+    background-repeat: no-repeat;
+}
+
+.third-inside {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 550px;
+    height: 350px;
+    padding-top: 30px;
+    padding-left: 40px;
+    gap: 20px;
+}
+
+
 
 
 
@@ -299,27 +397,74 @@ h2 {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .choose-card-flex{
+
+    .choose-card-flex {
         flex-direction: column;
         padding-left: 20px;
         padding-right: 20px;
+        margin-top: 50px;
     }
-    .choose-card1{
+
+    .choose-card1 {
         width: 335px;
+        height: 290px;
     }
-    .choose-card2{
+
+    .choose-card2 {
         width: 335px;
+        height: 290px;
     }
-    .choose-card-center{
+
+    .choose-card-center {
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0px;
         margin-right: 0px;
         width: 100%;
         text-align: left;
-    }
-    .choose-card3{
-        width: 335px;
+        padding-top: 50px;
     }
 
+    .choose-card3 {
+        width: 335px;
+        height: 290px;
+    }
+
+    .choose-text {
+        margin-bottom: 30px;
+    }
+    
+    .second-banner{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .second-inside{
+        height: 100%;
+        width: 100%;
+    }
+    .third-banner{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .third-inside{
+        height: 100%;
+        width: 100%;
+    }
+    .first-banner{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .first-inside{
+        height: 100%;
+        width: 100%;
+    }
 }
