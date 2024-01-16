@@ -5,8 +5,8 @@
 }
 
 /* shared style */
-.hide{
-    display:none;
+.hide {
+    display: none;
 }
 
 .discription {
@@ -14,6 +14,7 @@
     font-size: 1rem;
     font-weight: 400;
 }
+
 .btn-primary {
     background: #FF5400;
     color: #FFF;
@@ -90,44 +91,50 @@ input {
 
 /* Destination section styles */
 
-.maldivs{
+.maldivs {
     background-image: url('Images/Rectangle\ 8.png');
     width: 500px;
     height: 300px;
     border-radius: 16px;
 }
-.indonesia{
+
+.indonesia {
     background-image: url('Images/Rectangle\ 5.png');
     width: 500px;
     height: 300px;
     border-radius: 16px;
 }
-.firs-colum{
+
+.firs-colum {
     display: flex;
     padding-left: 130px;
     padding-right: 130px;
     gap: 20px;
 }
-.srilanka{
+
+.srilanka {
     background-image: url('Images/Rectangle\ 6.png');
     height: 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
-.north--america{
+
+.north--america {
     background-image: url('Images/Rectangle\ 7.png');
     height: 300px;
     background-repeat: no-repeat;
     border-radius: 20px;
 }
-.kashmir{
+
+.kashmir {
     background-image: url('Images/Rectangle\ 9.png');
     height: 300px;
     background-repeat: no-repeat;
     width: 85%;
     border-radius: 20px;
 }
-.second-colum{
+
+.second-colum {
     display: grid;
     grid-template-columns: 30% 45% 25%;
     padding-left: 130px;
@@ -135,40 +142,103 @@ input {
     gap: 20px;
     padding-top: 20px;
 }
-.bangladesh{
+
+.bangladesh {
     background-image: url('Images/Rectangle\ 11.png');
     height: 300px;
     border-radius: 16px;
 }
-.banderban{
+
+.banderban {
     background-image: url('Images/Rectangle\ 10.png');
     height: 300px;
     border-radius: 16px;
 }
-.third-colum{
+
+.third-colum {
     display: grid;
     grid-template-columns: 40% 60%;
-    padding-left:  130px;
+    padding-left: 130px;
     padding-right: 130px;
     gap: 20px;
-    
+
 }
-h2{
+
+h2 {
     text-align: center;
     padding-top: 145px;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 1.8rem;
 }
-.destination-text{
+
+.destination-text {
     text-align: center;
 }
-.destination-title{
+
+.destination-title {
     color: #131318;
     font-weight: 800;
     font-size: 2.5rem;
 }
-.destination{
+
+.destination {
     padding-bottom: 100px;
 }
 
+.choose-title {
+    color: #131318;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.choose-text {
+    text-align: center;
+}
+
+.choose-card-flex {
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.choose-card2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-card1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 500px;
+    height: 250px;
+}
+.choose-card3 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 500px;
+    height: 250px;
+}
+
+.card-title {
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.4rem;
+    padding: 30px 0px;
+}
+.choose-card-center{
+    padding-left: 130px;
+    padding-right: 130px;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
 
 
 
@@ -188,38 +258,68 @@ h2{
         flex-direction: column;
         gap: 10px;
     }
-    .popular{
+
+    .popular {
         flex-direction: column;
         padding: 10px 10px;
-       
+
     }
-    .popular-text{
-        width:90%;
+
+    .popular-text {
+        width: 90%;
     }
-    .popular-img img{
-        width: 320px;  
-       justify-content: center;
+
+    .popular-img img {
+        width: 320px;
+        justify-content: center;
     }
-    .firs-colum{
+
+    .firs-colum {
         flex-direction: column;
         padding-left: 20px;
         padding-right: 20px;
     }
-    .maldivs{
+
+    .maldivs {
         width: 95%;
     }
-    .indonesia{
+
+    .indonesia {
         width: 95%;
     }
-    .second-colum{
-     grid-template-columns: 1fr;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    .third-colum{
+
+    .second-colum {
         grid-template-columns: 1fr;
         padding-left: 20px;
         padding-right: 20px;
     }
-    
+
+    .third-colum {
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .choose-card-flex{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .choose-card1{
+        width: 335px;
+    }
+    .choose-card2{
+        width: 335px;
+    }
+    .choose-card-center{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        text-align: left;
+    }
+    .choose-card3{
+        width: 335px;
+    }
+
 }
