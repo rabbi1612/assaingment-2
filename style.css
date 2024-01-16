@@ -519,8 +519,60 @@ nav li a {
     text-decoration: none;
     color: var(--Dark-02, #424247);
 }
+.bonus{
+    border-radius: 14px;
+    padding: 0px 130px;
+    margin: 20px 130px;
 
-
+}
+.bonus1{
+    height: 200px;
+    width: 150px;
+    background-color: #FF5400;
+}
+.bonus2{
+    height: 200px;
+    width: 150px;
+    background-color: red;
+}
+.bonus3{
+    height: 200px;
+    width: 150px;
+    background-color: yellow;
+}
+.bonus4{
+    height: 200px;
+    width: 150px;
+    background-color: crimson;
+}
+.bonus-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    color: #FFF;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.bonus-section{
+    text-align: center;
+}
+.bonus1:hover{
+   background-color: #FFF;
+}
+.bonus2:hover{
+    background-color: #FFF;
+}
+.bonus3:hover{
+    background-color: #FFF;
+}
+.bonus4:hover{
+    
+    background-color: #FFF;
+}
+.bonus-btn{
+    margin-top: 20px;
+    justify-content: center;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -539,6 +591,7 @@ nav li a {
         flex-direction: column;
         gap: 10px;
         width: 80%;
+        padding: 0px 20px;
     }
 
     .popular {
@@ -696,6 +749,16 @@ nav li a {
     }
     .hambarger{
         width: 40px;
+    }
+    .bonus-grid{
+       grid-template-columns: 1fr;
+       gap: 20px;
+       justify-content: center;
+    }
+    .bonus{
+        border-radius: 14px;
+        padding: 0px 20px;
+        margin: 20px 20px;
     }
 }
 
