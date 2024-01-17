@@ -590,8 +590,9 @@ nav li a {
     .explore-input {
         flex-direction: column;
         gap: 10px;
-        width: 80%;
-        padding: 0px 20px;
+        padding-left: 40px;
+        margin-right:10px;
+        margin-left: 10px;
     }
 
     .popular {
@@ -753,7 +754,8 @@ nav li a {
     .bonus-grid{
        grid-template-columns: 1fr;
        gap: 20px;
-       justify-content: center;
+       margin-left: 90px;
+       margin-right: 90px;
     }
     .bonus{
         border-radius: 14px;
