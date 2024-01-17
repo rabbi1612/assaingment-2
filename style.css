@@ -529,21 +529,29 @@ nav li a {
     height: 200px;
     width: 150px;
     background-color: #FF5400;
+    border-radius: 15px;
+    padding-top: 60px;
 }
 .bonus2{
     height: 200px;
     width: 150px;
     background-color: red;
+    border-radius: 15px;
+    padding-top: 60px;
 }
 .bonus3{
     height: 200px;
     width: 150px;
     background-color: yellow;
+    border-radius: 15px;
+    padding-top: 60px;
 }
 .bonus4{
     height: 200px;
     width: 150px;
     background-color: crimson;
+    border-radius: 15px;
+    padding-top: 60px;
 }
 .bonus-grid{
     display: grid;
@@ -551,7 +559,6 @@ nav li a {
     justify-content: space-evenly;
     color: #FFF;
     font-size: 1.5rem;
-    text-align: center;
 }
 .bonus-section{
     text-align: center;
